@@ -3,7 +3,7 @@ def my_collect(argument)
   new_argument = []
 
   while i < argument.length
-    new_argument.push yield (argument[i])
+    new_argument << yield (argument[i])
     i = i+1
   end
   new_argument
